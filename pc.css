@@ -1,19 +1,19 @@
-@media screen and (min-width: 375px) {
-  body {
+body {
+    max-width: 100%;
+    box-sizing: border-box;
     color: #333;
     font-family: Verdana,sans-serif;
-    margin: 0;
   }
 
   header {
+    max-width: 100%;
+    box-sizing: border-box;
     background-color:#efefef;
-    padding-top: 32px;
-    padding-bottom: 32px;
   }
 
   .container {
-  
-    width: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
     margin-left:auto;
     margin-right: auto;
     display: flex;
@@ -32,9 +32,10 @@
   }
 
   .info h1 {
+    box-sizing: border-box;
+    max-width: 100%;
     font-weight: normal;
     font-size: 24px;
-    margin: 0px;
   }
 
   .info p {
@@ -50,29 +51,32 @@
   }
 
   .info ul li {
-    margin-right: 8px;
+    margin-bottom: 50px;
   }
 
   .works {
-    width: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
   }
 
   .works > h1 {
+    max-width: 100%;
     font-weight: normal;
     font-size: 24px;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
   }
 
   .works > section {
-  margin-bottom: 60px;
+    box-sizing: border-box;
+    max-width: 100%;
   }
 
-  .works > section > h1{
+  .img {
+    max-width: 100%;
     font-weight: normal;
+    text-align: center;
   }
 
   .works p {
@@ -82,7 +86,6 @@
   footer p {
     text-align: center;
     font-size: 14px;
-    scroll-margin-bottom: 60px;
     color: gray;
   }
-}
+} 
