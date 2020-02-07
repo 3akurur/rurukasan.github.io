@@ -1,20 +1,19 @@
-@media screen and (max-width: 375px) { 
+@media screen and (min-width: 375px) {
   body {
-    max-width: 100%;
-    box-sizing: border-box;
     color: #333;
     font-family: Verdana,sans-serif;
+    margin: 0;
   }
 
   header {
-    max-width: 100%;
-    box-sizing: border-box;
     background-color:#efefef;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   .container {
-    max-width: 100%;
-    box-sizing: border-box;
+  
+    width: 400px;
     margin-left:auto;
     margin-right: auto;
     display: flex;
@@ -33,10 +32,9 @@
   }
 
   .info h1 {
-    box-sizing: border-box;
-    max-width: 100%;
     font-weight: normal;
     font-size: 24px;
+    margin: 0px;
   }
 
   .info p {
@@ -52,26 +50,25 @@
   }
 
   .info ul li {
-    margin-bottom: 50px;
+    margin-right: 8px;
   }
 
   .works {
-    max-width: 100%;
-    box-sizing: border-box;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .works > h1 {
-    max-width: 100%;
+  .MidTi {
     font-weight: normal;
-    font-size: 24px;
+    font-size: 40px;
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 
   .works > section {
-    box-sizing: border-box;
-    max-width: 100%;
+  margin-bottom: 60px;
   }
 
   .works > section > h1{
@@ -81,15 +78,11 @@
   .works p {
     line-height: 1.8;
   }
-  section img {
-    max-width: 100%;
-    box-sizing: border-box;
-    height: auto;
-  }
 
   footer p {
     text-align: center;
     font-size: 14px;
+    scroll-margin-bottom: 60px;
     color: gray;
   }
-} 
+}
